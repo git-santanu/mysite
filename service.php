@@ -15,7 +15,7 @@
 
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand" href="index.php">SanCX</a>
+        <a class="navbar-brand" href="#">SanCX</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -41,64 +41,10 @@
             </form>
         </div>
     </nav>
-    <div id="demo" class="carousel slide" data-ride="carousel">
-        <ul class="carousel-indicators">
-            <li data-target="#demo" data-slide-to="0" class="active"></li>
-            <li data-target="#demo" data-slide-to="1"></li>
-            <li data-target="#demo" data-slide-to="2"></li>
-        </ul>
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img src="https://www.visittheusa.com/sites/default/files/styles/hero_l/public/images/hero_media_image/2017-01/Getty_515070156_EDITORIALONLY_LosAngeles_HollywoodBlvd_Web72DPI_0.jpg?h=0a8b6f8b&itok=lst_2_5d" alt="Los Angeles" width="1100" height="500">
-                <div class="carousel-caption">
-                    <h3>Los Angeles</h3>
-                    <p>We had such a great time in LA!</p>
-                </div>
-            </div>
-            <div class="carousel-item">
-                <img src="https://mybpn.org/wp-content/uploads/2021/08/Chicago-City-View.jpg" alt="Chicago" width="1100" height="500">
-                <div class="carousel-caption">
-                    <h3>Chicago</h3>
-                    <p>Thank you, Chicago!</p>
-                </div>
-            </div>
-            <div class="carousel-item">
-                <img src="https://media.gqmagazine.fr/photos/60f937dd1a2a62d2d6576324/16:9/w_2560%2Cc_limit/2477387" alt="New York" width="1100" height="500">
-                <div class="carousel-caption">
-                    <h3>New York</h3>
-                    <p>We love the Big Apple!</p>
-                </div>
-            </div>
-        </div>
-        <a class="carousel-control-prev" href="#demo" data-slide="prev">
-            <span class="carousel-control-prev-icon"></span>
-        </a>
-        <a class="carousel-control-next" href="#demo" data-slide="next">
-            <span class="carousel-control-next-icon"></span>
-        </a>
+    <div class="jumbotron">
+        <h1 class="display-4">SanCXian provides you a better service</h1>
+        <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
     </div>
-    <section class="my-5">
-        <div class="py-5">
-            <h3 class="text-center">About Us</h3>
-        </div>
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-lg-6 col-md-6 col-12">
-                    <img src="https://www.cgi.com/sites/default/files/site1280x722_1.jpg" class="img-fluid aboutImg">
-                </div>
-                <div class="col-lg-6 col-md-6 col-12">
-                    <h2 class="display-4">We are SanCXian</h2>
-                    <p class="py-2">
-                        With strong technical foundation Codelogicx delivers cutting edge cost
-                        effective solutions its clients. Founded by programmers, the company encourages research
-                        strongly and has a history of creating successful, profitable products for its clients. <br>
-                        The driving force behind Codelogicx is constant innovation.
-                    </p>
-                    <a href="about.php" class="btn btn-success">Check more</a>
-                </div>
-            </div>
-        </div>
-    </section>
     <section class="my-5">
         <div class="py-5">
             <h3 class="text-center">Our Services</h3>
@@ -174,32 +120,6 @@
             </div>
         </div>
     </section>
-    <section class="my-5">
-        <div class="py-5">
-            <h3 class="text-center">Contact US</h3>
-        </div>
-        <div class="container">
-            <form action="userInfo.php" method="POST">
-                <div class="form-group">
-                    <label>Name</label>
-                    <input type="text" class="form-control" name="name">
-                </div>
-                <div class="form-group">
-                    <label for="exampleInputEmail1">Email address</label>
-                    <input type="email" name="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                </div>
-                <div class="form-group">
-                    <label>Phone</label>
-                    <input type="number" name="phone" class="form-control">
-                </div>
-                <div class="form-group">
-                    <label for="exampleFormControlTextarea1">Comments</label>
-                    <textarea class="form-control" name="comment" id="exampleFormControlTextarea1" rows="3"></textarea>
-                </div>
-                <button type="submit" class="btn btn-primary">Submit</button>
-            </form>
-        </div>
-    </section>
     <footer>
         <p class="p-3 bg-dark text-white">san@cxian.com</p>
     </footer>
@@ -207,5 +127,4 @@
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
 </body>
-
 </html>

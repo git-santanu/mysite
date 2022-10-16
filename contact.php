@@ -42,29 +42,33 @@
         </div>
     </nav>
     <div class="jumbotron">
-        <h1 class="display-4">We are SanCXian</h1>
+        <h1 class="display-4">Connect with SanCXian</h1>
         <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
     </div>
     <section class="my-5">
         <div class="py-5">
-            <h3 class="text-center">About Us</h3>
+            <h3 class="text-center">Contact US</h3>
         </div>
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-lg-6 col-md-6 col-12">
-                    <img src="https://www.cgi.com/sites/default/files/site1280x722_1.jpg" class="img-fluid aboutImg">
+        <div class="container">
+            <form action="userInfo.php" method="POST">
+                <div class="form-group">
+                    <label>Name</label>
+                    <input type="text" class="form-control" name="name">
                 </div>
-                <div class="col-lg-6 col-md-6 col-12">
-                    <h2 class="display-4">We are SanCXian</h2>
-                    <p class="py-2">
-                        With strong technical foundation Codelogicx delivers cutting edge cost
-                        effective solutions its clients. Founded by programmers, the company encourages research
-                        strongly and has a history of creating successful, profitable products for its clients. <br>
-                        The driving force behind Codelogicx is constant innovation.
-                    </p>
-                    <a href="about.php" class="btn btn-success">Check more</a>
+                <div class="form-group">
+                    <label for="exampleInputEmail1">Email address</label>
+                    <input type="email" name="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
                 </div>
-            </div>
+                <div class="form-group">
+                    <label>Phone</label>
+                    <input type="number" name="phone" class="form-control">
+                </div>
+                <div class="form-group">
+                    <label for="exampleFormControlTextarea1">Comments</label>
+                    <textarea class="form-control" name="comment" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
         </div>
     </section>
     <footer>
@@ -74,4 +78,5 @@
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>
